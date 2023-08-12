@@ -26,3 +26,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   generate: true
+  assets:
+    - assets/images/introduction_page/onboarding1.png
+    - assets/images/introduction_page/onboarding2.png
+    - assets/images/introduction_page/onboarding3.png
