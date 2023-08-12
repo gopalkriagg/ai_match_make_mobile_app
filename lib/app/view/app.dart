@@ -1,5 +1,4 @@
-import 'package:ai_match_make_mobile_app/counter/counter.dart';
-import 'package:ai_match_make_mobile_app/introduction_page/IntroductionPage.dart';
+import 'package:ai_match_make_mobile_app/introduction_page/introduction_page.dart';
 import 'package:ai_match_make_mobile_app/l10n/l10n.dart';
 import 'package:flutter/material.dart';
 
@@ -17,6 +16,9 @@ class App extends StatelessWidget {
       ),
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
+      // supportedLocales: const [
+      //   Locale('ja'),
+      // ],
       home: const IntroductionPage(),
     );
   }
