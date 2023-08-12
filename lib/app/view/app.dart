@@ -15,10 +15,10 @@ class App extends StatelessWidget {
         ),
       ),
       localizationsDelegates: AppLocalizations.localizationsDelegates,
-      supportedLocales: AppLocalizations.supportedLocales,
-      // supportedLocales: const [
-      //   Locale('ja'),
-      // ],
+      // supportedLocales: AppLocalizations.supportedLocales,
+      supportedLocales: const [
+        Locale('ja'),
+      ],
       home: const IntroductionPage(),
     );
   }
