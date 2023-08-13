@@ -1,3 +1,4 @@
+import 'package:ai_match_make_mobile_app/choose_log_in_or_register_page/choose_log_in_or_register_page.dart';
 import 'package:ai_match_make_mobile_app/introduction_page/introduction_page.dart';
 import 'package:ai_match_make_mobile_app/l10n/l10n.dart';
 import 'package:flutter/material.dart';
@@ -19,7 +20,7 @@ class App extends StatelessWidget {
       supportedLocales: const [
         Locale('ja'),
       ],
-      home: const IntroductionPage(),
+      home: const ChooseLogInOrRegisterPage(),
     );
   }
 }
