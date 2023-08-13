@@ -51,6 +51,14 @@ class ChooseLogInOrRegisterPage extends StatelessWidget {
                     color: Colors.white,
                   ),
                 ),
+                ElevatedButton(
+                  onPressed: () {},
+                  style: ElevatedButton.styleFrom(
+                    minimumSize:
+                        Size(MediaQuery.of(context).size.width - 20, 50),
+                  ),
+                  child: Text(AppLocalizations.of(context).register),
+                ),
               ],
             ),
           ),

@@ -5,5 +5,7 @@
     "onboardingPageTitle2": "Different match formation methods depending on the matching settings (automatic or manual)!",
     "onboardingPageTitle3": "After a match is made, you can communicate with the opposing team.",
     "onboardingPageBeginButtonText": "Let's begin!",
-    "makeMatchInAsLittleAsOneMinute": "Matchmake in as little as 1 minute!"
+    "makeMatchInAsLittleAsOneMinute": "Matchmake in as little as 1 minute!",
+    "register": "Register",
+    "login": "Log In"
 }

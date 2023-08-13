@@ -5,5 +5,7 @@
     "onboardingPageTitle2": "マッチング設定（自動 or 手動）により試合成立方法が違う！",
     "onboardingPageTitle3": "試合成立後は相手チームとやり取りも可能。",
     "onboardingPageBeginButtonText": "はじめる",
-    "makeMatchInAsLittleAsOneMinute": "最短1分で試合をマッチメイク！"
+    "makeMatchInAsLittleAsOneMinute": "最短1分で試合をマッチメイク！",
+    "register": "新規登録の方はこちら",
+    "login": "ログイン"
 }
