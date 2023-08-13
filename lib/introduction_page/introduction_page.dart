@@ -1,6 +1,7 @@
 import 'package:ai_match_make_mobile_app/l10n/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:go_router/go_router.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 
 class IntroductionPage extends StatelessWidget {
@@ -45,6 +46,7 @@ class IntroductionPage extends StatelessWidget {
             style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
           ),
           onPressed: () {
+            context.go('/');
             HapticFeedback.lightImpact();
           },
         ),
